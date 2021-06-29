@@ -23,7 +23,7 @@ namespace Prueba.Web.Controllers
 
         public IActionResult Index()
         {
-            Persona t = api.EncontrarPersona(3);
+            Persona t = api.EncontrarPersona(2);
 
             var model = new IndexModel
             {
